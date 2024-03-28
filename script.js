@@ -2,6 +2,7 @@
 
 //getElementById()
 const historyList = document.getElementById('history-list');
-const historyListItems = historyList.getElementById('item');
+// const historyListItems = historyList.getElementById('item');
+
 
 //querySelector()
