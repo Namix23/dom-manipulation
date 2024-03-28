@@ -13,4 +13,4 @@ const historyNode = document.getElementById("history-list");
 
 const inputNode = document.querySelector("#guess-input");
 
-inputNode.value = "20";
+// inputNode.value = "20";
