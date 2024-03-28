@@ -7,3 +7,4 @@
 
 //querySelector()
 const headingNode = document.querySelector("h1");
+headingNode.innerHTML = "new heading";
