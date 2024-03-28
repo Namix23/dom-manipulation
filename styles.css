@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&display=swap");
 
 html {
   height: 100%;
@@ -13,7 +13,8 @@ body {
   font-family: Lunasima;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
 }
 
@@ -23,7 +24,7 @@ h1 {
 
 label {
   display: block;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 input[type="number"] {
@@ -39,7 +40,7 @@ section {
 }
 
 #guess-section {
-  padding: 1em .5em;
+  padding: 1em 0.5em;
 }
 
 #history-section {
@@ -50,9 +51,10 @@ section {
 
 #history-section ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
 #history-section ul li {
   text-align: center;
-  padding: .4em 0;
+  padding: 0.4em 0;
 }
