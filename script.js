@@ -6,3 +6,4 @@
 // historyList.innerHTML = "<li>History Item</li>";
 
 //querySelector()
+const headingNode = document.querySelector("h1");
