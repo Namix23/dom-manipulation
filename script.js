@@ -16,6 +16,6 @@ const inputNode = document.querySelector("#guess-input");
 // inputNode.value = "20";
 
 //generates random number btwn 0 and 1
-const correctNumber = Math.random() *100
+const correctNumber = Math.floor(Math.random() *100);
 inputNode.value = correctNumber;
 
