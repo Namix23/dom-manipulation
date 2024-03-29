@@ -14,7 +14,7 @@ const historyNode = document.getElementById("history-list");
 const inputNode = document.querySelector("#guess-input");
 
 // inputNode.value = "20";
-
+ 
 //generates random number btwn 0 and 1
 const correctNumber = Math.floor(Math.random() *100);
 inputNode.value = correctNumber;
@@ -38,4 +38,9 @@ function checkAnswer(){
     alert ('guess lower');
     resultText = 'lower';
   }
+  else if (guessInput < correctNumber){
+    alert('guess higher');
+    resultText = 'higher';
+  }
+
 }
