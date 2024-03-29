@@ -34,4 +34,8 @@ function checkAnswer(){
     alert ('enter a number!');
     return;
   }
+  if (guessInput > correctNumber) {
+    alert ('guess lower');
+    resultText = 'lower';
+  }
 }
