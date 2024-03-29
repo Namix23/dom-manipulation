@@ -44,6 +44,9 @@ function checkAnswer(){
   }
   else {
     alert (`correct! The answer was ${correctNumber}`);
-    resultText = "correct";
+    resultText = "correct"; 
   }
 }
+  //add guess history
+  
+
