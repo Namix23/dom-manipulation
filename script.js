@@ -22,7 +22,8 @@ inputNode.value = correctNumber;
 function checkAnswer(){
 
   //get the guess input & check against the correct answer
-  //iif guess user is blank, ask user for input & return
+  //if guess user is blank, ask user for input & return
   //tell the user the resullt
   //store the result to be printed in guest history
+  const guessInput = inputNode.value;
 }
