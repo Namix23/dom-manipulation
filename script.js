@@ -19,5 +19,10 @@ const inputNode = document.querySelector("#guess-input");
 const correctNumber = Math.floor(Math.random() *100);
 inputNode.value = correctNumber;
 
+function checkAnswer(){
 
-
+  //get the guess input & check against the correct answer
+  //iif guess user is blank, ask user for input & return
+  //tell the user the resullt
+  //store the result to be printed in guest history
+}
