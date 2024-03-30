@@ -49,4 +49,6 @@ function checkAnswer(){
 }
   //add guess history
   const guessNode = document.createElement("li");
+  historyNode.appendChild(guessNode);
+
 
