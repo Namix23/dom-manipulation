@@ -46,5 +46,5 @@ function checkAnswer() {
   const guessNode = document.createElement("li");
   historyNode.appendChild(guessNode);
   guessNode.innerHTML = `${guessInput} - ${resultText}`;
-  guessInput.value = "";
+ inputNode.value = "";
 }
